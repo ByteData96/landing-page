@@ -1,0 +1,32 @@
+/* Define a largura do header para ocupar 100% da tela e adiciona um espaçamento interno */
+header {
+    width: 100%;
+    padding: 28px 8%;
+}
+
+/* Configura a barra de navegação para ocupar toda a largura e alinha os itens */
+#navbar {
+    width: 100%;
+    display: flex; /* Usa flexbox para organizar os elementos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Deixa os itens um de cada lado */
+}
+
+/* Define o tamanho da fonte e a cor do logotipo na navegação */
+#nav_logo {
+    font-size: 24px;
+    color: #e9a209;
+}
+
+/* Remove os marcadores da lista e define um espaçamento entre os itens */
+#nav_list {
+    display: flex; /* Deixa os itens da lista em linha */
+    list-style: none; /* Remove os marcadores de lista padrão */
+    gap: 48px; /* Adiciona um espaçamento entre os itens */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
